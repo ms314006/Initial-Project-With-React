@@ -24,7 +24,6 @@
   "homepage": "https://gitlab.com/GQSM/fish_studio#README",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "@testing-library/react": "^8.0.1",
     "history": "^4.9.0",
     "node-fetch": "^2.3.0",
     "node-sass": "^4.10.0",
@@ -40,6 +39,7 @@
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
+    "@testing-library/react": "^8.0.1",
     "babel-loader": "^8.0.4",
     "coveralls": "^3.0.4",
     "css-loader": "^1.0.1",
