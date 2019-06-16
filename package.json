@@ -9,7 +9,8 @@
     }
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "coveralls": "^3.0.4",
     "css-loader": "^1.0.1",
     "eslint": "^5.15.2",
     "eslint-config-airbnb": "^17.1.0",
