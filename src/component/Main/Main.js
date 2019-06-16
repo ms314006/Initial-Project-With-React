@@ -5,7 +5,12 @@ import styles from './index.scss';
 const Main = (props) => {
   const { title, } = props;
   return (
-    <h1 className={styles.title}>{title}</h1>
+    <h1
+      className={styles.title}
+      data-testid="title"
+    >
+      {title}
+    </h1>
   );
 };
 
